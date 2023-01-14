@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEARD</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/media.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="/styles/fullpage.css">
+    <script src="/javascript/fullpage.js"></script>
+    <script>
+        window.onload = function () {
+          document.body.classList.add('loaded_hiding');
+          window.setTimeout(function () {
+            document.body.classList.add('loaded');
+            document.body.classList.remove('loaded_hiding');
+          }, 3000);
+        }
+    </script>
+</head>
+<body>
+    <div class="preloader">
+        <div class="preloader__row">
+          <div class="preloader__item-ico"></div>
+          <div class="preloader__item-text">
+              <h1 class="preloader__item-title">beard</h1>
+          </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <section class="section__header">
+           <header>
+                <div class="content fixed__content__header">
+                    <div class="logo-div">
+                        <img class="logo__header" src="/img/logo/logo.png" alt="">
+                        <button class="burger__header"></button>
+                    </div>
+                    <div class="text__header">
+                        <h1 class="title-text__header">recomendation</h1>
+                    </div>
+                    <div class="coin__header-div">
+                        <img class="ico__coin-header" src="/img/coin/coin.png" alt="">
+                        <h1 class="count__coin__header">100</h1>
+                    </div>
+                </div>
+           </header>
+        </section>
+        <div class="main">
+            <section class="blog__content__section">
+                <div class="container row-blog__content">
+                    <div id="fullpage" class="block__card-blog__content">
+                        <div class="content-card text-section__blog section">
+                            <div>
+                                <div class="blog-card">
+                                    <div class="content-parent__card">
+                                        <div class="content-text__card">
+                                            <div class="top-card__content">
+                                                <img class="ico-img__card" src="/img/icon people/ico.jpg" alt="">
+                                                <h1 class="title__content-card">hi, This is my first post in...</h1>
+                                            </div>
+                                            <div class="bottom-card__content">
+                                                <h1 class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porttitor nisi nunc, eget mollis ex placerat non. Donec pharetra massa metus, non malesuada quam consequat in. Sed ut ex id velit...</h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="active__card-block">
+                                    <button class="card__comments"></button>
+                                    <button id="heart" class="card__heart"></button>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="content-card section">
+                            <div>
+                                <div class="blog-card">
+                                    <div class="content-parent__card">
+                                        <div class="content-text__card">
+                                            <div class="top-card__content">
+                                                <img class="ico-img__card" src="/img/icon people/ico.jpg" alt="">
+                                                <h1 class="title__content-card">hi, This is my first post in...</h1>
+                                            </div>
+                                            <div class="bottom-card__content">
+                                                <h1 class="description image-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porttitor nisi nunc, eget mollis ex placerat non. Donec pharetra massa metus, non malesuada quam consequat in. Sed ut ex id velit...</h1>
+                                                <img class="img__content__card" src="/img/icon people/ico.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="active__card-block">
+                                    <button class="card__comments"></button>
+                                    <button id="heart" class="card__heart"></button>
+                                </div>
+                            </div>
+                        </div>
+            
+            
+                        <div class="content-card section">
+                            <div>
+                                <div class="blog-card">
+                                    <div class="content-parent__card">
+                                        <div class="content-text__card">
+                                            <div class="top-card__content">
+                                                <img class="ico-img__card" src="/img/icon people/ico.jpg" alt="">
+                                                <h1 class="title__content-card">hi, This is my first post in...</h1>
+                                            </div>
+                                            <div class="bottom-card__content">
+                                                <h1 class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porttitor nisi nunc, eget mollis ex placerat non. Donec pharetra massa metus, non malesuada quam consequat in. Sed ut ex id velit...</h1>
+                                                <div class="code-card__content">
+                                                    <div class="item-blog__code">
+                                                        <h1 class="number_of_code__blog">1</h1>
+                                                        <div class="strick__blog-code">
+                                                            <h1 class="title-code__strick">numbers = [1, 2, 3, 8, 46, 21, 78, 44, 11]</h1>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item-blog__code">
+                                                        <h1 class="number_of_code__blog">2</h1>
+                                                        <div class="strick__blog-code">
+                                                            <h1 class="title-code__strick">print("Hello World")</h1>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item-blog__code">
+                                                        <h1 class="number_of_code__blog">3</h1>
+                                                        <div class="strick__blog-code">
+                                                            <h1 class="title-code__strick">for i in numbers:</h1>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item-blog__code">
+                                                        <h1 class="number_of_code__blog">4</h1>
+                                                        <div class="strick__blog-code">
+                                                            <h1 class="title-code__strick">print("Hello Beard!")</h1>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="active__card-block">
+                                    <button class="card__comments"></button>
+                                    <button id="heart" class="card__heart"></button>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="content-card section">
+                            <div>
+                                <div class="blog-card">
+                                    <div class="content-parent__card">
+                                        <div class="content-text__card">
+                                            <div class="top-card__content">
+                                                <img class="ico-img__card" src="/img/icon people/ico.jpg" alt="">
+                                                <h1 class="title__content-card">hi, This is my first post in...</h1>
+                                            </div>
+                                            <div class="bottom-card__content">
+                                                <h1 class="description image-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porttitor nisi nunc, eget mollis ex placerat non. Donec pharetra massa metus, non malesuada quam consequat in. Sed ut ex id velit...</h1>
+                                                <img class="img__content__card" src="/img/icon people/ico.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="active__card-block">
+                                    <button class="card__comments"></button>
+                                    <button id="heart" class="card__heart"></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-card section">
+                            <div>
+                                <div class="blog-card">
+                                    <div class="content-parent__card">
+                                        <div class="content-text__card">
+                                            <div class="top-card__content">
+                                                <img class="ico-img__card" src="/img/icon people/ico.jpg" alt="">
+                                                <h1 class="title__content-card">hi, This is my first post in...</h1>
+                                            </div>
+                                            <div class="bottom-card__content">
+                                                <h1 class="description image-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porttitor nisi nunc, eget mollis ex placerat non. Donec pharetra massa metus, non malesuada quam consequat in. Sed ut ex id velit...</h1>
+                                                <img class="img__content__card" src="/img/icon people/ico.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="active__card-block">
+                                    <button class="card__comments"></button>
+                                    <button id="heart" class="card__heart"></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-card section">
+                            <div>
+                                <div class="blog-card">
+                                    <div class="content-parent__card">
+                                        <div class="content-text__card">
+                                            <div class="top-card__content">
+                                                <img class="ico-img__card" src="/img/icon people/ico.jpg" alt="">
+                                                <h1 class="title__content-card">hi, This is my first post in...</h1>
+                                            </div>
+                                            <div class="bottom-card__content">
+                                                <h1 class="description image-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porttitor nisi nunc, eget mollis ex placerat non. Donec pharetra massa metus, non malesuada quam consequat in. Sed ut ex id velit...</h1>
+                                                <img class="img__content__card" src="/img/icon people/ico.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="active__card-block">
+                                    <button class="card__comments"></button>
+                                    <button id="heart" class="card__heart"></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-card section">
+                            <div>
+                                <div class="blog-card">
+                                    <div class="content-parent__card">
+                                        <div class="content-text__card">
+                                            <div class="top-card__content">
+                                                <img class="ico-img__card" src="/img/icon people/ico.jpg" alt="">
+                                                <h1 class="title__content-card">hi, This is my first post in...</h1>
+                                            </div>
+                                            <div class="bottom-card__content">
+                                                <h1 class="description image-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porttitor nisi nunc, eget mollis ex placerat non. Donec pharetra massa metus, non malesuada quam consequat in. Sed ut ex id velit...</h1>
+                                                <img class="img__content__card" src="/img/icon people/ico.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="active__card-block">
+                                    <button class="card__comments"></button>
+                                    <button id="heart" class="card__heart"></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-card section">
+                            <div>
+                                <div class="blog-card">
+                                    <div class="content-parent__card">
+                                        <div class="content-text__card">
+                                            <div class="top-card__content">
+                                                <img class="ico-img__card" src="/img/icon people/ico.jpg" alt="">
+                                                <h1 class="title__content-card">hi, This is my first post in...</h1>
+                                            </div>
+                                            <div class="bottom-card__content">
+                                                <h1 class="description image-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porttitor nisi nunc, eget mollis ex placerat non. Donec pharetra massa metus, non malesuada quam consequat in. Sed ut ex id velit...</h1>
+                                                <img class="img__content__card" src="/img/icon people/ico.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="active__card-block">
+                                    <button class="card__comments"></button>
+                                    <button id="heart" class="card__heart"></button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class="footer">
+            <div class="footer__container">
+                <div class="row__footer">
+                    <div class="personal__footer">
+                        <img class="img__logo__footer" src="/img/icon people/ico.jpg" alt="">
+                        <h1 class="title__name__footer">borodach</h1>
+                    </div>
+                    <div class="oper__footer">
+                        <h1 class="title__version-footer">v. 3.0.2</h1>
+                        <button class="settings__footer"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+<script>
+    $(function() {
+        $('#fullpage').fullpage();
+    });
+</script>
+<script src="/javascript/heart.js"></script>
+</body>
+</html>
