@@ -121,4 +121,16 @@
     .header__registration {
         padding-bottom: 150px;
     }
+
+    /* VOICE GROUP */
+
+    .content-card__group {
+        padding: 27px 24px;
+    }
+    .button-card__new-group {
+        padding: 17px 50px;
+    }
+    .card-active__groups {
+        min-width: 219px;
+    }
 }
