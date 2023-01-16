@@ -124,6 +124,14 @@
 
     /* VOICE GROUP */
 
+    .header__content-voice {
+        padding-bottom: 120px;
+    }
+
+    .input-card__new-group {
+        font-size: 18px;
+    }
+
     .content-card__group {
         padding: 27px 24px;
     }
@@ -133,4 +141,28 @@
     .card-active__groups {
         min-width: 219px;
     }
+    .back__group-button {
+        padding: 20px;
+        width: 200px;
+        font-size: 18px;
+    }
+
+    /* USER */
+
+    .active__card-user {
+        border-radius: 0px 0px 20px 20px;
+    }
+    .blog-user__card {
+        border-radius: 20px 20px 0px 0px;
+    }
+    .hr-user__profile { 
+        max-width: 300px;
+    }
+    .row-hr__user {
+        display: flex;
+        justify-content: center;
+    }
+     .heart-user {
+         margin-left: 60px;
+     }
 }

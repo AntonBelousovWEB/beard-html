@@ -436,12 +436,14 @@ section {
 
 /* RULE */
 .rule-logo,
-.voice-logo {
+.voice-logo,
+.profil-logo {
     position: absolute;
 }
 
 .header__content-rules,
-.header__content-voice {
+.header__content-voice,
+.header__content-profile {
     padding-bottom: 96px;
 }
 
@@ -572,6 +574,9 @@ section {
     flex-shrink: 0;
     gap: 80px;
 }
+.second-card {
+    margin-bottom: 200px;
+}
 
 .card-active__groups {
     min-width: 419px;
@@ -602,4 +607,179 @@ section {
     font-size: 36px;
     padding-top: 12px;
     text-transform: uppercase;
+}
+
+.back__group {
+    padding: 30px 30px;
+}
+.footer__group {
+    background-color: #252632;
+}
+
+/* PROFIL */
+
+.verfication__user {
+    display: flex;
+    column-gap: 15px;
+    justify-content: center;
+}
+
+.verification__badge-active {
+    background: url('../img/badges/verefication.png') no-repeat;
+    background-size: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.title-text__header__profil-name {
+    text-align: center;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: var(--open-bold);
+    font-size: 24px;
+    color: #fff;
+}
+
+.user-information {
+    text-align: center;
+}
+.people-icon__user {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.badges__user {
+    display: flex;
+    column-gap: 15px;
+    justify-content: center;
+    padding: 30px 0;
+}
+.badges-ico {
+    width: 50px;
+    height: 50px;
+}
+
+.row__buttons__user-profile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 20px;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+.button-edit__profile {
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: var(--open-bold);
+    font-size: 24px;
+    background-color: #FF8906;
+    padding: 20px 42px;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+.followers-count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.count-followers__text {
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: var(--open-bold);
+    font-size: 24px;
+    background-color: #FF8906;
+    padding: 20px 17px;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+.container__user-description {
+    max-width: 500px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.description-user__profile {
+    max-width: 500px;
+    text-align: left;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: var(--open-bold);
+    font-size: 20px;
+    line-height: 156%;
+    padding-bottom: 30px;
+}
+
+.links-user__profile {
+    text-align: left;
+}
+.links-user__profile h1 {
+    background: url('../img/links/link-ico.png') left no-repeat;
+    padding: 0 34px;
+    margin-bottom: 12px;
+}
+.title-links__profile {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: var(--open-bold);
+    font-size: 20px;
+    padding-bottom: 11px;
+}
+
+.hr-user__profile {
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    border: 1px solid #D9D9D9;
+}
+
+.new-post__button-user {
+    margin-top: 30px;
+    background-color: #FF8906;
+
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: var(--open-bold);
+    font-size: 24px;
+    padding: 18px 32px;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+.button-row__post {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.card-user__content {
+    padding-bottom: 80px;
+}
+.active__card-user {
+    max-width: 363px;
+    background-color: #2E2F3E;
+    border-radius: 0px 0px 20px 20px;
+    height: 110px;
+    padding: 23px 0px 0px 32px;
+    display: flex;
+}
+.row-button__active {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    
+}
+.title-count__comments,
+.title-count__hearts {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: var(--open-bold);
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 14px;
+}
+
+.heart-user {
+    margin-left: 70px;
 }
