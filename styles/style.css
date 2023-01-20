@@ -258,19 +258,32 @@ section {
     height: 110px;
     padding: 23px 0px 0px 32px;
     display: flex;
-    column-gap: 26px;
+    column-gap: 16px;
+    align-items: center;
 }
 
 .card__comments {
     width: 64px;
+    position: relative;
     height: 64px;
     background: url('/img/active/comment.png') no-repeat;
 }
 
 .card__heart {
-    width: 64px;
-    height: 64px;
-    background: url('/img/active/heard-black.png') no-repeat;
+    width: 100px;
+    height: 155px;
+    background: url('/img/active/heart.png') no-repeat;
+    background-position: left;
+    cursor: pointer;
+}
+.card__heart.liked {
+    animation: like-anim 1.2s steps(28) forwards;
+}
+
+@keyframes like-anim {
+    to {
+        background-position: right;
+    }
 }
 
 /* IMAGE BLOG CARD */
