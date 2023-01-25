@@ -450,13 +450,15 @@ section {
 /* RULE */
 .rule-logo,
 .voice-logo,
-.profil-logo {
+.profil-logo,
+.post-logo {
     position: absolute;
 }
 
 .header__content-rules,
 .header__content-voice,
-.header__content-profile {
+.header__content-profile,
+.header__content-post {
     padding-bottom: 96px;
 }
 
@@ -795,4 +797,219 @@ section {
 
 .heart-user {
     margin-left: 70px;
+}
+
+/* NEW POST */
+.relative-container__new-post {
+    background-color: #2E2F3E;
+    border-radius: 20px;
+    max-width: 876px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: var(--open-bold);
+}
+.content__new-post {
+    padding: 30px;
+    color: #fff;
+}
+.global-inf__new-post {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 87px;
+    position: relative;
+    height: 100%;
+}
+.content_inputs__new-post {
+    flex-grow: 1;
+}
+.global-tags__new-post {
+    flex-grow: 0.3;
+}
+
+.big_title {
+    font-size: 24px;
+}
+.relative_input__name_new-post,
+.relative_textarea__name_new-post {
+    position: relative;
+    max-width: 488px;
+    padding: 13px 0px 30px 0px;
+}
+.input_name__new-post {
+    width: 100%;
+    height: 42px;
+    border-radius: 5px;
+    background-color: #ABABAB;
+
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: var(--open-bold);
+    font-size: 20px;
+    padding: 0px 20px;
+}
+
+.textarea_name__new-post {
+    width: 100%;
+    height: 364px;
+    border-radius: 5px;
+    background-color: #ABABAB;
+    resize: none;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: var(--open-bold);
+    font-size: 20px;
+    padding: 10px 20px;
+}
+.textarea_name__new-post::-webkit-scrollbar {
+    width: 20px;
+}
+.textarea_name__new-post::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background-color:#D9D9D9;
+  border: 5px solid #ABABAB;
+}
+.relative-container__tags {
+    flex-grow: 2;
+    max-width: 240px;
+    margin-top: 13px;
+    border-radius: 5px;
+    min-height: 432px;
+    background-color: #ABABAB;
+}
+
+
+.buttons__tag-block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 15px 11px;
+    margin: 0 auto;
+    max-width: 218px;
+}
+.buttons__tag-block label:not(:first-child) {
+    padding-top: 20px;
+}
+.buttons__type-block {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    column-gap: 20px;
+}
+
+.cartoons,
+.nature,
+.it,
+.anime,
+.sport,
+.travelling,
+.food,
+.blog,
+.memes,
+.news,
+.lifehacks,
+.adventure,
+.music,
+.art,
+.studying {
+    background: #968E8E;
+    outline: none;
+    border-radius: 5px;
+    transition: 0.2s;
+    position: relative;
+}
+
+label .input__tags-post[type="checkbox"]:checked + .cartoons,
+label .input__tags-post[type="checkbox"]:checked + .nature,
+label .input__tags-post[type="checkbox"]:checked + .it,
+label .input__tags-post[type="checkbox"]:checked + .anime,
+label .input__tags-post[type="checkbox"]:checked + .sport,
+label .input__tags-post[type="checkbox"]:checked + .travelling,
+label .input__tags-post[type="checkbox"]:checked + .food,
+label .input__tags-post[type="checkbox"]:checked + .blog,
+label .input__tags-post[type="checkbox"]:checked + .memes,
+label .input__tags-post[type="checkbox"]:checked + .news,
+label .input__tags-post[type="checkbox"]:checked + .lifehacks,
+label .input__tags-post[type="checkbox"]:checked + .adventure,
+label .input__tags-post[type="checkbox"]:checked + .music,
+label .input__tags-post[type="checkbox"]:checked + .art,
+label .input__tags-post[type="checkbox"]:checked + .studying {
+  background: #FF8906;
+  color: #000;
+}
+
+.type-block__new-post {
+    margin-top: 30px;
+}
+
+
+.type_text-new__post,
+.type_image-new__post,
+.type_code-new__post {
+    margin-top: 40px;
+}
+.title_tetx_new__post {
+    font-size: 20px;
+}
+.relative-block__type-text,
+.relative-block__type-image {
+    background-color: #ABABAB;
+    max-width: 713px;
+    height: 283px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.textarea_relative,
+.image_relative {
+    max-width: 647px;
+    margin: 0 auto;
+    padding: 22px 33px;
+    position: relative;
+}
+.textarea_type-text__new-post {
+    resize: none;
+    background-color: #968E8E;
+    border-radius: 5px;
+    width: 100%;
+    height: 239px;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: var(--open-bold);
+    font-size: 20px;
+    padding: 10px 20px;
+}
+.textarea_type-text__new-post::-webkit-scrollbar {
+    width: 20px;
+}
+.textarea_type-text__new-post::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background-color:#D9D9D9;
+    border: 5px solid #968E8E;
+}
+
+.title-type__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #968E8E;
+    border-radius: 5px;
+    width: 100%;
+    height: 239px;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: var(--open-bold);
+    font-size: 20px;
+}
+
+
+.relative-block__type-code {
+    background-color: #968E8E;
+    max-width: 713px;
+    min-height: 187px;
+    margin-top: 21px;
+    border-radius: 5px;
+}
+.textarea__code {
+    text-transform: none;
 }

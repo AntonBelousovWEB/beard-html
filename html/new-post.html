@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/media.css">
+    <script src="/javascript/codemirror/lib/codemirror.js"></script>
+    <script src="/javascript/codemirror/mode/javascript/javascript.js"></script>
+    <link rel="stylesheet" href="/javascript/codemirror/lib/codemirror.css">
+    <link rel="stylesheet" href="/javascript/codemirror/theme/ayu-mirage.css">
+
+    <link rel="stylesheet" href="/javascript/codemirror/addon/fold/foldgutter.css"></link>
+    <script src="/javascript/codemirror/addon/fold/foldcode.js"></script>
+    <script src="/javascript/codemirror/addon/fold/foldgutter.js"></script>
+    <script src="/javascript/codemirror/addon/fold/brace-fold.js"></script>
+    <script src="/javascript/codemirror/addon/fold/xml-fold.js"></script>
+    <script src="/javascript/codemirror/addon/fold/indent-fold.js"></script>
+    <script src="/javascript/codemirror/addon/fold/markdown-fold.js"></script>
+    <script src="/javascript/codemirror/addon/fold/comment-fold.js"></script>
+    <title>NEW POST</title>
+</head>
+<body>
+    <section class="new__post-section">
+        <div class="container">
+            <div class="header__content-post">
+                <img class="logo__header post-logo" src="/img/logo/logo.png" alt="">
+                <h1 class="title-text__header">NEW POST</h1>
+           </div>
+           <div class="relative-container__new-post">
+               <div class="content__new-post">
+                    <div class="global-inf__new-post">
+                        <div class="content_inputs__new-post">
+                            <h1 class="title__new-post_name big_title">name of post</h1>
+                            <div class="relative_input__name_new-post">
+                                <input class="input_name__new-post" type="text">
+                            </div>
+                            <h1 class="title__new-post_description big_title">description</h1>
+                            <div class="relative_textarea__name_new-post">
+                                <textarea class="textarea_name__new-post"></textarea>
+                            </div>
+                        </div>
+                        <div class="global-tags__new-post">
+                            <h1 class="title__new-post_name big_title">choose tags</h1>
+                            <div class="relative-container__tags">
+                                <div class="buttons__tag-block">
+                                    <label>
+                                        <input class="input__tags-post" type="checkbox" name="test" style="display:none;"/>
+                                        <span style="padding: 5px 47px" class="cartoons">#cartoons</span>
+                                    </label>
+                                    <label>
+                                        <input class="input__tags-post" type="checkbox" name="test" style="display:none"/>
+                                        <span style="padding: 5px 27px" class="nature">#nature</span>
+                                    </label>
+                                    <label>
+                                        <input class="input__tags-post" type="checkbox" name="test" style="display:none"/>
+                                        <span style="padding: 5px 15px" class="it">#it</span>
+                                    </label>
+                                    <label>
+                                        <input class="input__tags-post" type="checkbox" name="test" style="display:none"/>
+                                        <span style="padding: 5px 17px" class="anime">#anime</span>
+                                    </label>
+                                    <label>
+                                        <input class="input__tags-post" type="checkbox" name="test" style="display:none"/>
+                                        <span style="padding: 5px 12px" class="sport">#sport</span>
+                                    </label>
+                                    <label>
+                                        <input class="input__tags-post" type="checkbox" name="test" style="display:none"/>
+                                        <span style="padding: 5px 40px" class="travelling">#travelling</span>
+                                    </label>
+                                    <label>
+                                        <input class="input__tags-post" type="checkbox" name="test" style="display:none"/>
+                                        <span style="padding: 5px 22px" class="food">#food</span>
+                                    </label>
+                                    <label>
+                                        <input class="input__tags-post" type="checkbox" name="test" style="display:none"/>
+                                        <span style="padding: 5px 14px" class="blog">#blog</span>
+                                    </label>
+                                    <label>
+                                        <input class="input__tags-post" type="checkbox" name="test" style="display:none"/>
+                                        <span style="padding: 5px 15px" class="memes">#memes</span>
+                                    </label>
+                                    <label>
+                                        <input class="input__tags-post" type="checkbox" name="test" style="display:none"/>
+                                        <span style="padding: 5px 14px" class="news">#news</span>
+                                    </label>
+                                    <label>
+                                        <input class="input__tags-post" type="checkbox" name="test" style="display:none"/>
+                                        <span style="padding: 5px 46px" class="lifehacks">#lifehacks</span>
+                                    </label>
+                                    <label>
+                                        <input class="input__tags-post" type="checkbox" name="test" style="display:none"/>
+                                        <span style="padding: 5px 40px" class="adventure">#adventure</span>
+                                    </label>
+                                    <label>
+                                        <input class="input__tags-post" type="checkbox" name="test" style="display:none"/>
+                                        <span style="padding: 5px 30px" class="music">#music</span>
+                                    </label>
+                                    <label>
+                                        <input class="input__tags-post" type="checkbox" name="test" style="display:none"/>
+                                        <span style="padding: 5px 8px" class="art">#art</span>
+                                    </label>
+                                    <label>
+                                        <input class="input__tags-post" type="checkbox" name="test" style="display:none"/>
+                                        <span style="padding: 5px 46px" class="studying">#studying</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="type-block__new-post">
+                        <h1 class="title__new-post_type big_title">choose type</h1>
+                        <div class="buttons__type-block">
+                            <label>
+                                <input class="input__tags-post" type="checkbox" name="test" style="display:none;"/>
+                                <span style="padding: 8px 80px; font-size: 20px" class="cartoons">text</span>
+                            </label>
+                            <label>
+                                <input class="input__tags-post" type="checkbox" name="test" style="display:none"/>
+                                <span style="padding: 8px 80px; font-size: 20px" class="nature">image</span>
+                            </label>
+                            <label>
+                                <input class="input__tags-post" type="checkbox" name="test" style="display:none"/>
+                                <span style="padding: 8px 80px; font-size: 20px" class="it">code</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="type_text-new__post">
+                        <h1 class="title_tetx_new__post">type your message</h1>
+                        <div class="relative-block__type-text">
+                            <div class="textarea_relative">
+                                <textarea class="textarea_type-text__new-post"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="type_image-new__post">
+                        <h1 class="title_tetx_new__post">upload your image</h1>
+                        <div class="relative-block__type-image">
+                            <div class="image_relative">
+                                <h1 class="title-type__img">img here</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="type_code-new__post">
+                        <h1 class="title_tetx_new__post">write or paste your code</h1>
+                        <div class="relative-block__type-code">
+                            <div class="code_relative">
+                                <textarea class="textarea__code" id="code"></textarea>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+           </div>
+        </div>
+    </section>
+<script>
+    var myCodeMirror = CodeMirror.fromTextArea(document.getElementById('code'), {
+        mode: 'javascript',
+        lineNumbers: true,
+        matchBrackets: true,
+        theme: 'ayu-mirage',
+        foldGutter: true,
+        gutters: ["CodeMirror-linenumbers", "CodeMirror-foldgutter"]
+    }).setValue("Happy coding! Your bearded man");
+</script>
+</body>
+</html>
