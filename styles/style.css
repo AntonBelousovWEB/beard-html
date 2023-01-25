@@ -1,4 +1,4 @@
-@import url(/styles/reset.css);
+@import url(/beard-html/styles/reset.css);
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;700&family=Orienta&display=swap');
 
 html,
@@ -74,7 +74,7 @@ body {
     margin-right: 123px;
     width: 128px;
     height: 128px;
-    background: url('/img/pre/loader.png') no-repeat;
+    background: url('/beard-html/img/pre/loader.png') no-repeat;
     animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   }
   
@@ -182,7 +182,7 @@ section {
 .burger__header {
     width: 36px;
     height: 21px;
-    background: url('/img/logo/burger.png') no-repeat;
+    background: url('/beard-html/img/logo/burger.png') no-repeat;
 }
 .count__coin__header {
     font-family: 'Montserrat', sans-serif;
@@ -266,13 +266,13 @@ section {
     width: 64px;
     position: relative;
     height: 64px;
-    background: url('/img/active/comment.png') no-repeat;
+    background: url('/beard-html/img/active/comment.png') no-repeat;
 }
 
 .card__heart {
     width: 100px;
     height: 155px;
-    background: url('/img/active/heart.png') no-repeat;
+    background: url('/beard-html/img/active/heart.png') no-repeat;
     background-position: left;
     cursor: pointer;
 }
@@ -375,7 +375,7 @@ section {
 .settings__footer {
     width: 64px;
     height: 64px;
-    background: url('/img/footer/settings.png') no-repeat;
+    background: url('/beard-html/img/footer/settings.png') no-repeat;
 }
 
 /* REGISTRATION */
@@ -444,7 +444,7 @@ section {
 .img__reg-google {
     width: 72px;
     height: 72px;
-    background: url('../img/registration/google.png') no-repeat;
+    background: url('/beard-html/img/registration/google.png') no-repeat;
 }
 
 /* RULE */
@@ -640,7 +640,7 @@ section {
 }
 
 .verification__badge-active {
-    background: url('../img/badges/verefication.png') no-repeat;
+    background: url('/beard-html/img/badges/verefication.png') no-repeat;
     background-size: 30px;
     width: 30px;
     height: 30px;
@@ -730,7 +730,7 @@ section {
     text-align: left;
 }
 .links-user__profile h1 {
-    background: url('../img/links/link-ico.png') left no-repeat;
+    background: url('/beard-html/img/links/link-ico.png') left no-repeat;
     padding: 0 34px;
     margin-bottom: 12px;
 }
